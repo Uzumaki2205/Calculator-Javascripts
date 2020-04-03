@@ -1,0 +1,91 @@
+body {
+      font-family: 'Baloo Thambi 2', cursive;
+      background: black;
+}
+
+.container {
+      width: 1000px;
+      height: 570px;
+      background-image: url("https://indainam.com/wp-content/uploads/2017/10/mau-background-don-gian-01-1024x640.jpg");
+      margin: 20px auto;
+}
+
+.calculator {
+      width: 320px;
+      height: 550px;
+      background-color: #eaedef;
+      margin: 0px auto;
+      top: 20px;
+      position: relative;
+      border-radius: 5px;
+}
+
+.result {
+      height: 150px;
+}
+
+.history {
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 5px;
+	font-size: 20px;
+	color: #919191;
+}
+
+.output {
+    text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 35px;
+}
+
+.keyboard {
+	  height: 400px;
+}
+
+.operator, .number, .empty {
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0px;
+	font-size: 15px;
+	font-weight: bold;
+background:rgb(199, 204, 204);
+}
+
+.number, .empty {
+	background-color: #eaedef;
+}
+
+.number, .operator {
+	cursor: pointer;
+}
+
+.operator:active, .number:active {
+	font-size: 5px;
+	transition-delay: 0,2s;
+}
+
+.operator:focus, .number:focus .empty:focus {
+	outline: 0;
+}
+
+button:nth-child(4) {
+	background-color: #20b2aa;
+}
+button:nth-child(8) {
+	background-color: #ffa500;
+}
+button:nth-child(12) {
+	background-color: #f08080;
+}
+button:nth-child(16) {
+	background-color: #7d93e0;
+}
+button:nth-child(20) {
+	background-color: #9467af;
+}
+
+
